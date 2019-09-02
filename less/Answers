@@ -1,0 +1,10 @@
+1. *responsive is fluid and adapts to the size of the screen no matter what the target device.
+*Adaptive design uses static layouts based on breakpoints which don't respond once they're initially loaded.
+
+2. mobile first means to design from mobile size then expand to larger setting. desktop first means content is disigned for larger area and adjustments are made for smaller screens.
+
+3.regardless original font size rem dictates what the font size is to be in browers
+
+4. a form that condenses css stlyings. allows for nesting. allows for variable and mixins to make multiple changes in large files instead of changing things individually.
+
+5. i dont have a favorite concept. i hate css. it has given me nothing but trouble. i have not been given the proper time to really learn it anyway; all of it gives me trouble.

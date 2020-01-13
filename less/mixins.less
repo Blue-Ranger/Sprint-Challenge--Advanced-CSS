@@ -1,5 +1,7 @@
 // Mixins Here
-
+.blackBorder(@width, @style, @color) {
+    border: @width @style @color;
+}
 .button {
     background: #1B1919;
     border-radius: 10px;
@@ -9,11 +11,14 @@
     text-align: center;
     font-size: 20px;
     text-align: center;
+    // parametric button desktop view
+    .blackBorder(2px, solid, red); 
     
 }
 
 .button:hover {
-    background: #FF0101;
+    background: rgb(1, 204, 255);
     color: black;
+    // mixin for button pink
     .mixinbackground();
 }

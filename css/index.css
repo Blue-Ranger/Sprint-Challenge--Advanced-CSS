@@ -209,6 +209,20 @@ p {
   font-size: 60px;
   color: blue;
 }
+nav a {
+  width: 100px;
+  height: 100px;
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #e66f2b;
+  }
+}
 footer {
   color: #22283B;
   background: lightgrey;

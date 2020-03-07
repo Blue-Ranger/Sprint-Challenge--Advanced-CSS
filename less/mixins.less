@@ -2,6 +2,7 @@
 .blackBorder(@width, @style, @color) {
     border: @width @style @color;
 }
+//button configurations
 .button {
     background: #1B1919;
     border-radius: 10px;
@@ -13,12 +14,17 @@
     text-align: center;
     // parametric button desktop view
     .blackBorder(2px, solid, red); 
-    
 }
 
 .button:hover {
-    background: rgb(1, 204, 255);
+    background: #330033;
     color: black;
     // mixin for button pink
     .mixinbackground();
+}
+@media (max-width: 500px) {
+    .button {
+        // parametric button desktop view
+        .blackBorder(4px, dashed, purple);
+    }
 }

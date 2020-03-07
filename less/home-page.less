@@ -23,10 +23,12 @@
       width: 100%;
       display: flex;
       flex-direction: column;
+      
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        
       }
     }
   }
@@ -59,7 +61,7 @@
   justify-content: center;
   flex-wrap: wrap;
   padding: 5%;
-
+}
   .walk-text {
     width: 50%;
 
@@ -82,7 +84,13 @@
       border-radius: 10px;
     }
   }
-}
+
+  
+  @media (max-width: 500px) {
+  #blast, #sky, #launch{
+    display:none;
+  }
+  }
 
 // home
 .home {
@@ -102,7 +110,7 @@
         flex-wrap: wrap;
       }
       .button {
-        background: #1b1919;
+        background: rgb(21, 1, 22);
         border-radius: 10px;
         width: 89%;
         padding: 15px;
